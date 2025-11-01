@@ -1,0 +1,79 @@
+a {
+    font-family: serif;
+    font-family: 'Raleway'; 
+}
+body {
+    background: rgb(230, 230, 230);
+    overflow-y: hidden;
+}
+h2 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    font-family: 'Raleway';
+}
+h3 {
+    font-size: 30px;
+    letter-spacing: 12px;
+    font-family: 'Raleway';
+}
+h4 {
+    font-family: 'Raleway';
+    font-style: 'Bold';
+    letter-spacing: 3px;
+}
+p {
+    font-family: serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(50, 20, 0);
+} 
+
+.footer {
+    /* background-color: white; */
+    padding: 30px;
+    background-color: rgb(230, 230, 230);
+}
+
+.logo {
+    background-image: url(whitebg.png);
+    background-size: 100vw;
+    height: 400px;
+}
+
+.mid {
+    background-image: url(whitebg.png);
+    background-size: 100vw;
+    height: 170px;
+
+}
+
+.middle {
+    padding: 160px 0px 160px 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.midgall image {
+    width: 48vh;
+}
+
+.nav-item {
+    /* background-color: white; */
+    width: 14vh;
+    background-color: rgb(230, 230, 230);
+}
+.nav-item a {
+    color: black;
+    transition: all 0.5s;
+    padding: 8px 0px 8px 0px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+.nav-item a:hover {
+    /* background-color: #dddddd; */
+    font-size: 14px;
+    color: #919191;
+    transition: all 0.5s;
+}
